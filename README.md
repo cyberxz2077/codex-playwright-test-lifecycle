@@ -1,6 +1,6 @@
 # Codex Playwright test-browser lifecycle
 
-Private source for a task-scoped Playwright CLI skill. The original skill is kept as the base; this change adds an automatic-QA entry point without changing the user's regular Chrome, Codex in-app browser, development server, or preview URL.
+Source for a task-scoped Playwright CLI skill. The original skill is kept as the base; this change adds an automatic-QA entry point without changing the user's regular Chrome, Codex in-app browser, development server, or preview URL. This is a Codex-side workflow fix, not a pull request to the upstream Playwright MCP server.
 
 ## Behavior
 
