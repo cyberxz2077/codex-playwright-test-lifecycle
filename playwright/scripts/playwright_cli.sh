@@ -9,7 +9,7 @@ fi
 has_session_flag="false"
 for arg in "$@"; do
   case "$arg" in
-    --session|--session=*)
+    --session|--session=*|-s|-s=*)
       has_session_flag="true"
       break
       ;;
